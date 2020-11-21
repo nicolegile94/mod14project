@@ -6,13 +6,13 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d92bd0;
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #3a14e3;
     font-weight: bold;
     transition: color .1s;
   }
@@ -22,7 +22,7 @@
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #3a14e3;
     border: 0;
     padding: 1%;
     color: white;
@@ -37,8 +37,10 @@
   }
   
   .post-list {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
   }
   
   textarea, input {
@@ -131,15 +133,6 @@
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-  }
-  
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
   }
   
   .comment-form {
